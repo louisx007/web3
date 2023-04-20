@@ -1,0 +1,7 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
