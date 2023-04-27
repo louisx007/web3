@@ -3,4 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+# eth-rpc-url = "http://127.0.0.1:8545"
+eth-rpc-url = "https://goerli.blockpi.network/v1/rpc/public"
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

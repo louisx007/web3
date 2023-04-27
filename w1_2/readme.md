@@ -7,3 +7,6 @@
 - 合约地址： 0x6346C3Bb00A60D95022fdAfE22090fd619f165dF
 ![avatar](images/01.png)
 
+
+# ound 相关笔记：
+forge create src/Counter.sol:Counter --rpc-url https://goerli.blockpi.network/v1/rpc/public --gas-limit 10000000 --gas-price 300000 --private-key 0xb809ba02512a1f90346a27c14c1a672318caa90863bde43ca157fc54fe2ffa9e

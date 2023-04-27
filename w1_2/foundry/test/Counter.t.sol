@@ -10,6 +10,7 @@ contract CounterTest is Test {
     function setUp() public {
         counter = new Counter();
         counter.setNumber(0);
+        console.log("user = %s",msg.sender);
     }
 
     function testIncrement() public {
@@ -21,4 +22,5 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
+
 }
